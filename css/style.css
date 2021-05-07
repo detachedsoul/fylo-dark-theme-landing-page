@@ -84,7 +84,8 @@ footer .nav-link {
 
 .header,
 .nav-link:hover,
-.btn {
+.btn,
+.link:hover {
 	color: var(--white);
 }
 
@@ -182,8 +183,7 @@ footer .nav-link {
 	background-image: url(../images/bg-curvy-mobile.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: bottom right;
-	/* background-blend-mode: multiply; */
+	background-position: center center;
 }
 
 .intro,
@@ -209,10 +209,6 @@ footer .nav-link {
 .stay-productive-img,
 .team-memeber {
 	margin-bottom: 2rem;
-}
-
-.feature-img {
-	width: 20%;
 }
 
 .link {
@@ -292,6 +288,10 @@ footer p.flex span {
 footer .nav-link {
 	display: block;
 }
+
+
+
+
 
 .attribution {
 	font-size: 11px;
