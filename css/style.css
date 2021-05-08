@@ -480,13 +480,9 @@ footer .nav-link,
 	margin-top: 0;
 }
 
-#email {
-	padding-top: 1rem;
-}
 
-.email {
-	margin-bottom: 100rem;
-	z-index: 999;
+#teams {
+	padding-top: 7rem;
 }
 
 
