@@ -626,6 +626,10 @@ footer .nav-link,
 
 @media screen and (min-width: 800px) {
 
+	footer {
+		padding-top: 10rem;
+	}
+
 	.intro {
 		padding-left: 15%;
 		padding-right: 15%;
@@ -724,6 +728,10 @@ footer .nav-link,
 
 @media only screen and (min-width: 1024px) {
 
+	footer {
+		padding-top: 13rem;
+	}
+
 	header {
 		padding-left: 4rem;
 		padding-right: 4rem;
@@ -758,7 +766,6 @@ footer .nav-link,
 	}
 
 	.features {
-		width: 80%;
 		grid-template-columns: repeat(2, 1fr);
 		column-gap: 10rem;
 	}
@@ -795,7 +802,8 @@ footer .nav-link,
 		left: -.4rem;
 	}
 
-	.email p {
+	.email p,
+	.features {
 		width: 80%; 
 	}
 
@@ -846,10 +854,6 @@ footer .nav-link,
 }
 
 @media only screen and (min-width: 1200px) {
-
-	.teams {
-		width: 80%;
-	}
 
 	.email {
 		width: 70%;
