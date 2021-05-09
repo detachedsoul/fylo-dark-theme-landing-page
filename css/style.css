@@ -713,6 +713,10 @@ footer .nav-link,
 }
 
 @media only screen and (min-width: 1024px) {
+
+	.intro .btn {
+		width: 40%;
+	}
 	
 	.email {
 		width: 80%;
@@ -854,6 +858,10 @@ footer .nav-link,
 }
 
 @media only screen and (min-width: 1200px) {
+
+	.features {
+		width: 70%;
+	}
 
 	.email {
 		width: 70%;
