@@ -22,6 +22,8 @@ function scrollToView(element, elemToScroll) {
 
     scrollCtrls.addEventListener('click', () => {
         scrollElem.scrollIntoView();
+        navContent.classList.remove('nav-content-show');
+        navToggle.classList.remove('nav-toggle-close');
     });
 }
 
