@@ -27,7 +27,7 @@ Users should be able to:
 
 ![Mobile View](images/mobile.png)
 ![Tablet View](images/tablet.png)
-![Desktop View](images/desktop.css)
+![Desktop View](images/desktop.png)
 
 ### Links
 
